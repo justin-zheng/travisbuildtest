@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '0.1'
+script: ./build.sh
+branches:
+  only:
+  - dev
+  - staging
+  - production
+  - "/.*(\\/)dev$/"
+  - "/.*(\\/)staging$/"
+  - "/.*(\\/)production$/"
