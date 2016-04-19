@@ -4,9 +4,4 @@ node_js:
 script: ./build.sh
 branches:
   only:
-  - dev
-  - staging
-  - production
-  - "/.*(\\/)dev$/"
-  - "/.*(\\/)staging$/"
-  - "/.*(\\/)production$/"
+  - master
