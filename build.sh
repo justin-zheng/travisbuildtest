@@ -12,7 +12,7 @@ echo "Download unity package list"
 curl -o Unity.pkg "http://netstorage.unity3d.com/unity/fdbb5133b820/MacEditorInstaller/Unity-5.3.4f1.pkg"
 echo === Installing Unity Editor ===
 
-installer -dumplog -package Unity.pkg -target /
+sudo installer -dumplog -package Unity.pkg -target /
 
 
 echo "activate license"

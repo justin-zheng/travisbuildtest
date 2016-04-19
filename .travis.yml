@@ -1,4 +1,4 @@
-language: node_js
+language: objective-c
 node_js:
 - '0.1'
 script: ./build.sh
@@ -6,3 +6,4 @@ branches:
   only:
   - master
 os: osx
+sudo: true
