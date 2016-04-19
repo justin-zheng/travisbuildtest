@@ -5,7 +5,7 @@
 
 echo === Prepare deployment folder ===
 
-echo === Installing Unity ===
+echo === Installing Unity Editor ===
 
 echo === Done ===
 
