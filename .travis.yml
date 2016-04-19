@@ -5,3 +5,4 @@ script: ./build.sh
 branches:
   only:
   - master
+os: osx
