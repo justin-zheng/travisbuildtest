@@ -17,6 +17,8 @@ echo === Installing Unity Editor ===
 
 sudo installer -dumplog -package Unity.pkg -target /
 
+echo "Verify firewall"
+/usr/libexec/ApplicationFirewall/socketfilterfw --getappblocked /Applications/Unity/Unity.app/Contents/MacOS/Unity
 
 echo "activate license"
 /Applications/Unity/Unity.app/Contents/MacOS/Unity -quit -batchmode -serial I3-GKE5-PKF4-2F84-2CMS-PTD5 -username justinz@unity3d.com -password '1Newpassword' -logfile
