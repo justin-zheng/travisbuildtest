@@ -11,6 +11,12 @@ echo "Download unity package list"
 
 curl -X GET 'https://core.cloud.unity3d.com/api/login' -v
 
+echo
+
+ifconfig
+
+echo
+
 curl -o Unity.pkg "http://netstorage.unity3d.com/unity/fdbb5133b820/MacEditorInstaller/Unity-5.3.4f1.pkg"
 #curl -o Unity.pkg "http://beta.unity3d.com/download/90500643c620/MacEditorInstaller/Unity-5.4.0b13.pkg"
 echo === Installing Unity Editor ===
