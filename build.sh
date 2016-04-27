@@ -33,15 +33,9 @@ mkdir ~/Library/Unity/Certificates
 cp CACerts.pem ~/Library/Unity/Certificates/
 
 echo "activate license"
-/Applications/Unity/Unity.app/Contents/MacOS/Unity -quit -batchmode -serial I3-GKE5-PKF4-2F84-2CMS-PTD5 -username justinz@unity3d.com -password '1Newpassword' -logfile
+/Applications/Unity/Unity.app/Contents/MacOS/Unity -quit -batchmode -serial I3-GKE5-PKF4-2F84-2CMS-PTD5 -username $username -password '1Newpassword' -logfile
 
 cat ~/Library/Logs/Unity/Editor.log
-
-echo
-
-#echo "activate license"
-#/Applications/Unity/Unity.app/Contents/MacOS/Unity -quit -batchmode -serial I3-GKE5-PKF4-2F84-2CMS-PTD5 -username justinz@unity3d.com -password '1Newpassword' -logfile
-
 
 echo "return license"
 
