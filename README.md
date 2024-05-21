@@ -17,3 +17,10 @@ mkdir ~/Library/Unity/Certificates
 
 cp CACerts.pem ~/Library/Unity/Certificates/
 ```
+
+
+# Unity 4.7 Certificate Error
+
+1. Open Editor folder
+2. Go to `\WebKit.resources\certificates` sub folder
+3. Replace the `cacert.pem` with `CACerts.pem`. Delete `cacert.pem`, copy `CACerts.pem` to the folder, rename the file to `cacert.pem`
